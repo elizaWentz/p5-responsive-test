@@ -42,6 +42,10 @@ const sketches = [
   "sketches/30-responsible-it-47.js",
   "sketches/31-responsible-it-48.js",
   "sketches/new-wcag2.js",
+  "sketches/new-wcag4.js",
+  "sketches/new-wcag12.js",
+  "sketches/new-wcag11.js",
+  "sketches/new-wcag8.js",
   "sketches/32-responsible-it-42.js"
 ];
 
