@@ -33,6 +33,25 @@ function draw() {
   drawGrain();
 }
 
+function keyPressed() {
+  if (key >= "1" && key <= "5") {
+    currentIndex = Number(key) - 1;
+    redraw();
+    return;
+  }
+
+  if (key === "s" || key === "S") {
+    saveTriangle(currentIndex);
+    return;
+  }
+
+  if (key === "a" || key === "A") {
+    for (let i = 0; i < palette.length; i++) {
+      saveTriangle(i);
+    }
+  }
+}
+
 // Draw a big triangle with slight "misregistration" and overlap
 function drawRisoTriangle() {
   // Main triangle position
